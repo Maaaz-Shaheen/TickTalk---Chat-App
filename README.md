@@ -1,4 +1,4 @@
-Talk Shalk Chat app 
+TickTalk Chat app 
 Using firebase, React and redux
 
 *************************** What to do to get this working **************************************
