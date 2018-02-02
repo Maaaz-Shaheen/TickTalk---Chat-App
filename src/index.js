@@ -20,9 +20,9 @@ const jsx = (
     </Provider>
 );
 
-store.subscribe(() => {
-    console.log(store.getState())
-});
+// store.subscribe(() => {
+//     console.log(store.getState())
+// });
 
 let hasRendered = false;
 const renderApp = () => {

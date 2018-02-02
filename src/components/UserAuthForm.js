@@ -43,6 +43,7 @@ class UserAuthForm extends React.Component {
         return (
             <Container className="py-5">
                 <Col sm={{ size: 8, offset: 2 }} md={{ size: 6, offset: 3 }}>
+                    <h1 className="display-4 text-center">TickTalk - Chat App</h1>
                     <Card outline color="primary">
                         <CardHeader className="text-center" style={{ backgroundColor: '#0275d8', color: '#FFFFFF' }}>{this.props.case} Form</CardHeader>
                         <CardBody >
@@ -100,6 +101,7 @@ class UserAuthForm extends React.Component {
                         </CardFooter>
                     </Card>
                 </Col>
+                <p className="text-center text-muted">By Ma'aaz A. Shaheen</p>
             </Container>
         )
     };
