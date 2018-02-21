@@ -107,8 +107,8 @@ class ChatMessageItem extends React.Component {
                                         </button>
                                     )
                                 }
-
-                                {this.props.authUserFUID === this.props.messageData.senderFUID && (this.props.messageData.seen ? <p className="text-muted">Seen</p> : <p className="text-muted">Not seen</p>)}
+                                <small className="text-muted d-block">Time sent : {moment(this.props.messageData.timestamp).format(" h:mm a , MM-DD-YY")}</small>
+                                {this.props.authUserFUID === this.props.messageData.senderFUID && (<small className="text-muted d-block">{this.props.messageData.seen ? `Seen` : `Not seen`}</small>)}
                             </div>
                         )
                 }

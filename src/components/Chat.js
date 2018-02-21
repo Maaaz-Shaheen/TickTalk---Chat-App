@@ -18,14 +18,15 @@ class Chat extends React.Component {
                     <ChatMessages />
                     <ChatForm />
                 </Col>
+
             </Container>
-        )
+                )
     }
 };
 
 const mapDispatchToProps = (dispatch) => {
     return {
-        setRecipientFUID: (recipientFUID) => dispatch(setFUID(recipientFUID))
+                    setRecipientFUID: (recipientFUID) => dispatch(setFUID(recipientFUID))
     }
 };
 
